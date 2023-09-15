@@ -1,0 +1,155 @@
+#yes
+{
+    background-color: black;
+}
+#preloader
+{
+    position: fixed;
+    height:100vh;
+    width:100vw;
+    z-index:1002;
+    background: black url(./image/load.gif) no-repeat center center;
+    background-size: 30%;
+}
+
+*
+{
+    font-family:'Black Ops One',sans-serif;
+}
+a{
+
+    letter-spacing: 2px;
+}
+.logo
+{
+  border-radius: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+    background-color: cyan;
+    transition: 2s;
+    animation:logo 4s;
+    margin-bottom:4px solid rgb(16, 243, 16);
+}
+@keyframes logo{
+    from{
+        transform: rotateX(3600deg);
+    }to{
+        transform: rotateX(60deg);
+    }
+}
+.logo:hover
+{
+    transform: rotate(360deg);
+    box-shadow: inset 0px 0px 50px yellow,0px 0px 50px red;
+    margin-bottom:4px solid rgb(16, 243, 16);
+}
+a:hover
+{
+    box-shadow: inset 0px 0px 20px white,0px 0px 60px blue;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border-bottom: 2px solid greenyellow;
+    border-top: 2px solid greenyellow;
+
+}
+#home
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+span
+{
+    color: blue;
+    font-weight: bold;
+}
+p
+{
+    color:gainsboro;
+}
+#navbar
+{
+    position: sticky;
+    top:0;
+    background: pink;
+    z-index:60;
+
+}
+.inner
+{
+    overflow: hidden;
+    transition: 1s;
+}
+
+input:hover
+{
+    box-shadow: inset 0px 0px 20px white,0px 0px 60px blue;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border-bottom: 2px solid greenyellow;
+    border-top: 2px solid greenyellow;
+}
+button:hover
+{
+    box-shadow: inset 0px 0px 20px white,0px 0px 60px blue;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border-bottom: 2px solid greenyellow;
+    border-top: 2px solid greenyellow;
+    transform: rotate(360deg);
+    transition: 2s;
+}
+body
+{
+    background-color: black;
+}
+h1:hover{
+    transform: translateX(150px);
+    transition: 4s  ;
+    
+
+}
+img{
+ 
+    overflow: hidden;
+  
+}
+img:hover
+{
+    transform: scale(1.5);
+    transition: transform  0.5s ease-in-out;
+
+   
+}
+
+#footer
+{
+    background-color:black;
+    border-radius: 20px;
+}
+i:hover
+{
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+span
+{
+    color: blue;
+}
+#myBtn {
+    display:none;
+     position: fixed;
+     bottom: 20px;
+     right: 30px;
+     font-size: 18px;
+     border: none;
+     outline: none;
+     background-color: red;
+     color: white;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 4px;
+   }
+ 
